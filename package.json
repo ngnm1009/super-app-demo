@@ -1,0 +1,19 @@
+{
+  "name": "super-app-demo",
+  "version": "1.0.0",
+  "description": "Demo Super App",
+  "main": "index.js",
+  "packageManager": "yarn@3.4.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ngocpm - ngnm1009@gmail.com",
+  "license": "ISC",
+   "workspaces": [
+    "packages/hostapp",
+    "packages/miniapp"
+  ],
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
